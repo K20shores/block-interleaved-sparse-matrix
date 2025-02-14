@@ -1,0 +1,1 @@
+/opt/homebrew/bin/gfortran -L/opt/local/lib -L/opt/homebrew/opt/openblas/lib -O3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk CMakeFiles/sblat3.dir/sblat3.f.o -o ../../../../sblat3  -Wl,-rpath,/Users/kshores/Documents/block-interleaved-sparse-matrix/build/_deps/eigen-build/blas ../libeigen_blas.dylib
