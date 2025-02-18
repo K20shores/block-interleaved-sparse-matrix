@@ -18,9 +18,8 @@ public:
             int base = b * blockSize;
             for (int i = 0; i < blockSize; ++i) {
                 for (int j = 0; j < blockSize; ++j) {
-                    if (i == j || std::abs(i - j) == 1) {
-                        triplets.emplace_back(base + i, base + j, (i == j ? 4.0 : -1.0));
-                    }
+                    double value = static_cast<double>((b+1)) + static_cast<double>(i+1) / 10.0 + static_cast<double>(j+1) / 100.0;
+                    triplets.emplace_back(base + i, base + j, value);
                 }
             }
         }
