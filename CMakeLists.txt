@@ -11,6 +11,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${PROJECT_SOURCE_DIR}/cmake")
 
 option(BISM_ENABLE_CUDA "Enable cuda support" OFF)
+option(BISM_ENABLE_MICM "Enable a build of MICM for comparisons" ON)
 
 ################################################################################
 # Dependencies

@@ -8,6 +8,7 @@ Todo:
   - [ ] in place
   - [ ] out of place
 - [ ] Time all of the operations and setup corresponding tests with micm
+  - 1 block, 10 blocks, 100 blocks, 1000 blocks
 - [ ] show how data can be set directly on the underlying values of the eigen matrices
 - [ ] Explore the GPU usage of eigen
 - [ ] Explore doing the same operations using cusparse
